@@ -22,4 +22,5 @@ puts coin_flip
 #Exercise 1.2
 puts fav_colours[0]
 
-#Exercise1.3 
+#Exercise1.3
+puts age_sibilings.sort
