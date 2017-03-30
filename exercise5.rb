@@ -12,7 +12,7 @@ fav_movies = {:rush_hour1 => 1998, :rush_hour2 => 2001, :rush_hour3 => 2007}
 
 cities = {:brampton => 588000, :missisauga => 758000, :toronto => 2810000}
 
-siblings = { :ashton => 26, :nick => 22 }
+siblings = { :ashton => 26, :amanda => 24, :nick => 22 }
 coin_flip = ['heads', 'heads', 'tails', 'heads', 'tails']
 
 #Exercise5.1 sum total of populations in cities
@@ -26,4 +26,13 @@ total_population = 0
 cities.each do |key, value|
   total_population += cities[key]
   puts total_population
+end
+
+#Exercise5.2
+siblings.each do |key, value|
+  if value <= 24
+    puts "#{key} is young"
+  else
+    puts "#{key} is old"
+  end
 end
