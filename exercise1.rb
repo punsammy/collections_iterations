@@ -28,3 +28,6 @@ puts age_sibilings.sort
 #Exercise 1.4 adding new baby to my family
 age_sibilings.push(0)
 puts age_sibilings
+
+#Exercise 1.5 printing year of one of movies
+puts fav_movies[:rush_hour1]
