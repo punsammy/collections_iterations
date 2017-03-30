@@ -3,7 +3,7 @@ fav_colours = ['red', 'purple', 'blue', 'green']
 age_sibilings = [22, 26]
 coin_flip = ['heads', 'heads', 'tails', 'heads', 'tails']
 fav_artists = ['drake', 'britney', 'beyonce']
-fav_colours2 = [:red, :purple, :blue, :green]
+fav_colours = [:red, :purple, :blue, :green]
 
 #HASHES
 words_defintions = {:big => "of considerable size", :medium => "not big, not small", :small => "size less than normal" }
