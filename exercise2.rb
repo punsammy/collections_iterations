@@ -17,3 +17,7 @@ coin_flip = ['heads', 'heads', 'tails', 'heads', 'tails']
 
 #Exercise2.1 Printing last element of fav_colours array
 puts fav_colours.last
+
+#Exercise2.2 Add new city to cities hash
+cities[:Caledon] = 75000
+puts cities
