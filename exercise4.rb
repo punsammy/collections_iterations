@@ -19,3 +19,9 @@ coin_flip = ['heads', 'heads', 'tails', 'heads', 'tails']
 age_siblings.each do |age|
   puts age if (age < 24)
 end
+
+#Exercise4.2 Output age of oldest person in age_siblings array
+puts age_siblings.max
+
+#Exercise4.3 How many times heads came up in coin_flip array
+puts coin_flip.count("heads")
