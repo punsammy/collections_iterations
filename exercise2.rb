@@ -21,3 +21,6 @@ puts fav_colours.last
 #Exercise2.2 Add new city to cities hash
 cities[:Caledon] = 75000
 puts cities
+
+#Exercise2.3 reverse array of coins
+puts coin_flip.reverse
