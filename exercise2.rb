@@ -27,3 +27,8 @@ puts coin_flip.reverse
 
 #Exercise2.4 Print population of one of the cities
 puts cities[:brampton]
+
+#Exercise2.5 Printing sentense about each of my fav_artists
+fav_artists.each do |artist|
+  puts "#{artist} is the best ever"
+end
