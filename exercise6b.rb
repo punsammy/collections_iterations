@@ -27,3 +27,11 @@ numbers = []
 end
 
 puts numbers
+
+#Exercise6b.4 use each loop to find sum of numbers in about array
+sum_numbers = 0
+numbers.each do |number|
+  sum_numbers += number
+end
+
+puts sum_numbers
