@@ -16,11 +16,15 @@ siblings = { :ashton => 26, :nick => 22 }
 coin_flip = ['heads', 'heads', 'tails', 'heads', 'tails']
 
 
-#Exercise 1.1
+#Exercise 1.1 displaying the outcomes of my coin flip exercise
 puts coin_flip
 
-#Exercise 1.2
+#Exercise 1.2 calling my first favourite color
 puts fav_colours[0]
 
-#Exercise1.3
+#Exercise1.3 sorting my siblings ages
 puts age_sibilings.sort
+
+#Exercise 1.4 adding new baby to my family
+age_sibilings.push(0)
+puts age_sibilings
