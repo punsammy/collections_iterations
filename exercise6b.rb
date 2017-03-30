@@ -44,3 +44,21 @@ triplets = []
   end
 end
 puts triplets
+
+#Exercise6b.6 make array out of countries that are island and print both sets of data
+
+countries =[
+  {:name => "Canada", :continent => "North America", :island => false},
+  {:name => "Japan", :continent => "Asia", :island => true},
+  {:name => "Greece", :continent => "Europe", :island => false}
+]
+
+island_countries = []
+countries.each do |country|
+  if country[:island] == false
+    island_countries << country
+  end
+end
+
+puts countries
+puts island_countries
