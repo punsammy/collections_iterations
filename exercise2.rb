@@ -24,3 +24,6 @@ puts cities
 
 #Exercise2.3 reverse array of coins
 puts coin_flip.reverse
+
+#Exercise2.4 Print population of one of the cities
+puts cities[:brampton]
