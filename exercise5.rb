@@ -37,7 +37,7 @@ siblings.each do |key, value|
   end
 end
 
-#Exercise5.3
+#Exercise5.3 printing last 2 colours in fav_colours
 #method1
 puts fav_colours[2,3]
 
@@ -46,3 +46,15 @@ last = fav_colours.length - 1
 puts fav_colours[last]
 secondLast = last - 1
 puts fav_colours[secondLast]
+
+#Exercise5.4 Increase every person age by 1
+#For array
+age_siblings.each do |age|
+  new_age = age + 1
+  puts new_age
+end
+#For hash
+siblings.each do |key, value|
+  year_older = value + 1
+  puts "#{key} will be #{year_older}"
+end
