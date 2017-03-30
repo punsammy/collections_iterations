@@ -34,3 +34,7 @@ puts coin_flip.count("heads")
 #Remove any item on list
 fav_artists.delete("drake")
 puts fav_artists
+
+#Exercise4.5 Change population for one of cities in hash cities
+cities[:brampton] = 100
+puts cities
