@@ -25,3 +25,12 @@ puts age_siblings.max
 
 #Exercise4.3 How many times heads came up in coin_flip array
 puts coin_flip.count("heads")
+
+#Exercise4.4 Remove one of favourite artists
+#Removing last item
+# fav_artists.pop
+# puts fav_artists
+
+#Remove any item on list
+fav_artists.delete("drake")
+puts fav_artists
