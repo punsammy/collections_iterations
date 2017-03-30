@@ -36,3 +36,13 @@ siblings.each do |key, value|
     puts "#{key} is old"
   end
 end
+
+#Exercise5.3
+#method1
+puts fav_colours[2,3]
+
+#method 2
+last = fav_colours.length - 1
+puts fav_colours[last]
+secondLast = last - 1
+puts fav_colours[secondLast]
