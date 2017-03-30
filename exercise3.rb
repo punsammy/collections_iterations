@@ -25,3 +25,7 @@ end
 
 #Exercise3.3 sort and reverse array of sibling ages
 puts age_sibilings.sort.reverse
+
+#Exercise3.4 Add "Beauty and the Beast" to fav_movies with 2 release dates
+fav_movies[:"Beauty and the Beast"] = 1991, 2017
+puts fav_movies
