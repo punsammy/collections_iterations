@@ -3,7 +3,7 @@ fav_colours = ['red', 'purple', 'blue', 'green']
 age_siblings = [22, 24, 26]
 coin_flip = ['heads', 'heads', 'tails', 'heads', 'tails']
 fav_artists = ['drake', 'britney', 'beyonce']
-fav_colours = [:red, :purple, :blue, :green]
+fav_colours2 = [:red, :purple, :blue, :green]
 
 #HASHES
 words_defintions = {:big => "of considerable size", :medium => "not big, not small", :small => "size less than normal" }
@@ -58,3 +58,14 @@ siblings.each do |key, value|
   year_older = value + 1
   puts "#{key} will be #{year_older}"
 end
+
+#Exercise5.5 Add 2 new colours to array of favourite colors
+#method 1
+fav_colours << "orange"
+fav_colours << "yellow"
+puts fav_colours
+
+#method 2
+fav_colours2 << :orange
+fav_colours2 << :yellow
+puts fav_colours2
