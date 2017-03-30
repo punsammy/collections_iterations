@@ -35,3 +35,12 @@ numbers.each do |number|
 end
 
 puts sum_numbers
+
+#Exercise6b.5 Create array that prints 1-50 three times each
+triplets = []
+(1..50).each do |numbers|
+  3.times do
+    triplets << numbers
+  end
+end
+puts triplets
