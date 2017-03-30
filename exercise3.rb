@@ -22,3 +22,6 @@ puts fav_artists[0..1]
 fav_movies.each do |key, value|
   puts "#{key} was initially released in #{value}"
 end
+
+#Exercise3.3 sort and reverse array of sibling ages
+puts age_sibilings.sort.reverse
