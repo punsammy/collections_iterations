@@ -22,7 +22,7 @@ phone_buttons = {
 
 #Exercise6a.5 make array with country, continent and whether or not it is an island
 countries =[
-  {:name => "Canada", :continent => "North America", :island => "False"}
-  {:name => "Japan", :continent => "Asia", :island => "True"}
+  {:name => "Canada", :continent => "North America", :island => "False"},
+  {:name => "Japan", :continent => "Asia", :island => "True"},
   {:name => "Greece", :continent => "Europe", :island => "False"}
 ]
